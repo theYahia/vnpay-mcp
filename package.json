@@ -1,12 +1,18 @@
 {
   "name": "@theyahia/vnpay-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for VNPay payment gateway (Vietnam)",
+  "version": "1.0.2",
+  "description": "MCP server for VNPay — payment gateway, QR payments (Vietnam)",
   "type": "module",
   "main": "dist/index.js",
-  "bin": { "vnpay-mcp": "dist/index.js" },
-  "files": ["dist"],
-  "engines": { "node": ">=18.0.0" },
+  "bin": {
+    "vnpay-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
@@ -25,11 +31,27 @@
     "typescript": "^5.7.0",
     "vitest": "^3.1.0"
   },
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "mcpName": "io.github.theYahia/vnpay-mcp",
-  "keywords": ["mcp","mcp-server","model-context-protocol","claude","ai","vietnam-api","vnpay","payments","typescript"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "vietnam-api",
+    "vnpay",
+    "payments",
+    "typescript",
+    "api"
+  ],
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/theYahia/vnpay-mcp.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theYahia/vnpay-mcp.git"
+  },
   "homepage": "https://github.com/theYahia/vnpay-mcp#readme",
   "author": "theYahia (https://github.com/theYahia)"
 }
